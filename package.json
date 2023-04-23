@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "prettier": "2.8.8"
+  },
+  "name": "pcat",
+  "description": "PCAT Photo App",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayramenesyilmaz/PCAT.git"
+  },
+  "keywords": [
+    "photo",
+    "app",
+    "camera"
+  ],
+  "author": "Bayram Enes YILMAZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bayramenesyilmaz/PCAT/issues"
+  },
+  "homepage": "https://github.com/bayramenesyilmaz/PCAT#readme"
+}
