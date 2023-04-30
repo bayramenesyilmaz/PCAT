@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "nodemon": "^2.0.22",
     "prettier": "2.8.8"
   },
   "name": "pcat",
@@ -7,7 +8,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/bayramenesyilmaz/PCAT/issues"
   },
-  "homepage": "https://github.com/bayramenesyilmaz/PCAT#readme"
+  "homepage": "https://github.com/bayramenesyilmaz/PCAT#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  }
 }
