@@ -10,7 +10,12 @@ const pageController = require('./controllers/pageController');
 const app = express();
 
 // connect DB
-mongoose.connect('mongodb://localhost/pcat-test-db');
+mongoose
+  .connect(
+    'mongodb+srv://bayenes:3LNmVUprnhPopklm@cluster0.mhemprp.mongodb.net/?retryWrites=true&w=majority'
+  )
+  .then((res) => console.log('connexted mongo atlas'))
+  .catch((err) => console.log(err));
 
 /* TEMPLATE ENGİNE */
 app.set('view engine', 'ejs');
